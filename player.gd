@@ -5,6 +5,7 @@ var jump_force: float = 200.0
 var gravity: float = 500.0
 
 var score: int = 0
+@onready var score_text: Label = $CanvasLayer/Label
 
 # delta est une valeur permettant, quand utilisé, de convertir une action "per frame" en "per second". (Rappel que la fonction _physics_process est appelée à chaque frame)
 func _physics_process(delta: float) -> void:
@@ -33,4 +34,5 @@ func game_over() -> void:
 
 func add_score(amount: int) -> void:
 	score += amount
-	print("Score: ", score)
+	score_text.text = "Score : " + str(score)
+	print("Score : ", score)

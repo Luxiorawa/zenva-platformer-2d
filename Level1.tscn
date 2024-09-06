@@ -54,3 +54,24 @@ move_speed = 50.0
 
 [node name="Coin" parent="Coins" instance=ExtResource("5_yshu4")]
 position = Vector2(29, -18)
+
+[node name="Coin2" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(51, -18)
+
+[node name="Coin3" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(74, -18)
+
+[node name="Coin4" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(99, -18)
+
+[node name="Coin5" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(170, -51)
+
+[node name="Coin6" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(281, -51)
+
+[node name="Coin7" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(381, -52)
+
+[node name="Coin8" parent="Coins" instance=ExtResource("5_yshu4")]
+position = Vector2(517, -83)
