@@ -22,3 +22,9 @@ func _physics_process(delta: float) -> void:
 	
 
 	move_and_slide()
+
+	if global_position.y > 300:
+		game_over()
+
+func game_over() -> void:
+	get_tree().reload_current_scene()
