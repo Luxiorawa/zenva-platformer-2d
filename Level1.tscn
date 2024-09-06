@@ -11,18 +11,20 @@ tile_map_data = PackedByteArray("AAAVAP7/AAACAAEAAAAWAP7/AAACAAEAAAAVAAMAAAACAAY
 tile_set = ExtResource("1_dholk")
 
 [node name="Player" parent="." instance=ExtResource("2_38eua")]
+position = Vector2(-66, -11)
 
 [node name="Enemy" parent="." instance=ExtResource("3_m5ve5")]
+position = Vector2(225, -81)
 
 [node name="Enemy2" parent="." instance=ExtResource("3_m5ve5")]
-position = Vector2(95, 59)
+position = Vector2(327, -34)
 move_direction = Vector2(0, -70)
 
 [node name="Enemy3" parent="." instance=ExtResource("3_m5ve5")]
-position = Vector2(193, 70)
+position = Vector2(423, -32)
 move_speed = 50.0
 move_direction = Vector2(0, -50)
 
 [node name="Enemy4" parent="." instance=ExtResource("3_m5ve5")]
-position = Vector2(210, 19)
+position = Vector2(442, -98)
 move_speed = 50.0

@@ -11,11 +11,9 @@ script = ExtResource("1_x06y1")
 move_direction = Vector2(0, 70)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(230, -100)
 texture = ExtResource("2_hvcie")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(230, -100)
 shape = SubResource("CircleShape2D_r3m7l")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
